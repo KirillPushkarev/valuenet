@@ -1,7 +1,1 @@
-[
-  {
-    "db_id": "hack_zurich",
-    "query": "select tel from spatialunit where name = 'Urdorf'",
-    "question": "What is the telephone number of Urdorf?"
-  }
-]
+[{"db_id": "hack_zurich", "query": "SELECT link FROM opendata.political_affair JOIN opendata.person p on p.id = political_affair.person_id WHERE name = 'Weber, Eric';", "question": "use links to all eric weber cases."}, {"db_id": "hack_zurich", "query": "SELECT link FROM opendata.political_affair JOIN opendata.person p on p.id = political_affair.person_id WHERE name = 'Weber, Eric';", "question": "give links to all eric weber cases"}, {"db_id": "hack_zurich", "query": "SELECT link FROM opendata.political_affair JOIN opendata.person p on p.id = political_affair.person_id WHERE name = 'Weber, Eric';", "question": "give links to all eric weber cases."}, {"db_id": "hack_zurich", "query": "SELECT link FROM opendata.political_affair JOIN opendata.person p on p.id = political_affair.person_id WHERE name = 'Weber, Eric';", "question": "doodle all links to eric weber cases."}, {"db_id": "hack_zurich", "query": "SELECT link FROM opendata.political_affair JOIN opendata.person p on p.id = political_affair.person_id WHERE name = 'Weber, Eric';", "question": "link to all eric weber cases"}, {"db_id": "hack_zurich", "query": "SELECT DISTINCT political_party FROM opendata.person p;", "question": "what are political parties there?"}, {"db_id": "hack_zurich", "query": "SELECT DISTINCT political_party FROM opendata.person p;", "question": "was are there political parties?"}, {"db_id": "hack_zurich", "query": "SELECT DISTINCT political_party FROM opendata.person p;", "question": "what are there political parties?"}]
